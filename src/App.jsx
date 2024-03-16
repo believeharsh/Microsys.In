@@ -1,10 +1,18 @@
+import Login from "./Components/Login-Signup/Login"
+import Navbar from "./Components/Navbar/Navbar"
+// import Register from "./Components/Register/Register"
+
+import Sidebar from "./Components/Sidebar/Sidebar"
 
 function App() {
  
 
   return (
     <>
-      <h1>Harsh Dahiya </h1>
+      
+      <Navbar/>
+      {/* <Sidebar/> */}
+      <Login/>
     </>
   )
 }
