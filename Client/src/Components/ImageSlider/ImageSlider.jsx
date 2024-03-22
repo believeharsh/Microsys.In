@@ -48,7 +48,7 @@ return () =>  clearInterval(IntervalId)
           return (
             <div className="" key={index}>
               <img
-                key={index}
+                // key={index}
                 src={index === currImgIndex ? image.url : ""}
                 alt="Slider"
                 style={{
